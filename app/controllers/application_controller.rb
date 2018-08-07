@@ -6,6 +6,6 @@ class ApplicationController < ActionController::Base
   before_action :do_something
 
   def do_something
-    puts 123
+    puts 1_283
   end
 end
